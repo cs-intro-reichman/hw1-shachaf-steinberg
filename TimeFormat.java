@@ -6,8 +6,9 @@ public class TimeFormat {
 		// Deduct 12 if hours is bigger then 13 to get 12-hour AM/PM format.
 		String time = "";
 		
-		
-		if (hours >= 12) {
+		if (hours == 12) {
+			time = "PM";
+		} else if (hours >= 13) {
 			time = "PM";
 			hours -= 12;
 		} else {
