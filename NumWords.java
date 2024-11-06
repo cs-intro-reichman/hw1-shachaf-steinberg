@@ -4,6 +4,6 @@ public class NumWords {
 	int number = Integer.parseInt(args[0]);
 	// extracting and printing out the hundres, tens and ones.
 	System.out.println(number / 100 + " hundreds, " + (number % 100)/10 +
-						" tens, " + number % 10 + " ones."); 
+						" tens, and " + number % 10 + " ones."); 
 	}
 }
