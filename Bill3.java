@@ -8,8 +8,8 @@ public class Bill3 {
 		//Calculates the final sum for each person.
 		double sum = Math.ceil((double)bill/3);
 
-		System.out.println("Dear " + name1 + ", " + name2 +
-							", and " + name3 + ": pay " + sum + " Shekels each.");
+		System.out.println("Dear " + name3 + ", " + name2 +
+							", and " + name1 + ": pay " + sum + " Shekels each.");
 	}
 	
 }
