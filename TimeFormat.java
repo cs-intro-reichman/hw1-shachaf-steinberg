@@ -7,7 +7,7 @@ public class TimeFormat {
 		String time = "";
 		
 		
-		if (hours >= 13) {
+		if (hours >= 12) {
 			time = "PM";
 			hours -= 12;
 		} else {
